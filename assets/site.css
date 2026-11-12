@@ -24,7 +24,8 @@ a:hover { color: var(--crimson-dk); }
 h1, h2, h3 { font-family: "Josefin Slab", Georgia, serif; font-weight: 700; line-height: 1.15; color: var(--ink); }
 
 /* top bar */
-.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0; }
+/* padding-block only, so .wrap keeps its 16px side gutter on narrow screens */
+.top { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 18px; }
 .brand { display: flex; align-items: center; gap: 12px; min-height: 44px; text-decoration: none; color: var(--ink); }
 .brand img { width: 40px; height: 40px; border-radius: 10px; }
 .brand span { font-family: "Josefin Slab", Georgia, serif; font-size: 24px; }
@@ -33,7 +34,7 @@ h1, h2, h3 { font-family: "Josefin Slab", Georgia, serif; font-weight: 700; line
 
 /* hero: the proscenium */
 .hero { background: var(--crimson); color: var(--cream); border-top: 10px solid var(--mari); border-bottom: 10px solid var(--mari); }
-.hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; padding: 48px 0 56px; }
+.hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 40px; align-items: center; padding-block: 48px 56px; }
 .hero h1 { color: var(--cream); font-size: clamp(40px, 6.4vw, 68px); margin: 8px 0 16px; }
 .kicker { font-size: 14px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--mari); margin: 0; }
 .lede { font-size: 20px; max-width: 30em; margin: 0 0 28px; color: var(--cream); }
@@ -41,7 +42,7 @@ h1, h2, h3 { font-family: "Josefin Slab", Georgia, serif; font-weight: 700; line
   display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border-radius: 28px;
   background: var(--mari); color: var(--crimson-deep); text-decoration: none; font-weight: 600; font-size: 18px;
 }
-.cta[aria-disabled="true"] { background: transparent; color: var(--cream); box-shadow: inset 0 0 0 2px var(--mari); cursor: default; }
+.cta.soon { background: transparent; color: var(--cream); box-shadow: inset 0 0 0 2px var(--mari); cursor: default; }
 .notify { margin: 16px 0 0; }
 .notify a { display: inline-block; padding: 12px 0; color: var(--cream); }
 .trust { margin: 8px 0 0; font-size: 16px; color: var(--ply-lt); }
@@ -78,11 +79,26 @@ footer a { display: inline-block; padding: 10px 0; color: var(--ink-soft); }
 .doc h2 { font-size: 26px; margin: 32px 0 8px; }
 .muted { color: var(--ink-soft); }
 
-:focus-visible { outline: 3px solid var(--mari-dk); outline-offset: 3px; }
+/* focus: crimson on the light wall and panels (6.9:1), marigold on crimson bands (4.6:1) */
+:focus-visible { outline: 3px solid var(--crimson); outline-offset: 3px; }
+.hero :focus-visible, .final :focus-visible, .skip:focus-visible { outline-color: var(--mari); }
+.skip {
+  position: absolute; left: 16px; top: -200px; z-index: 10; padding: 12px 18px; border-radius: 10px;
+  background: var(--crimson); color: var(--cream); font-weight: 600; text-decoration: none;
+}
+.skip:focus { top: 8px; color: var(--cream); }
+.share { margin: 20px 0 0; font-size: 16px; }
+.share a { display: inline-block; padding: 12px 0; color: var(--ply-lt); }
 @media (max-width: 760px) {
   .hero-grid, .split { grid-template-columns: 1fr; }
   .tools, .shots { grid-template-columns: 1fr; }
   .shots img { max-width: 320px; margin: 0 auto; }
   .top nav a { margin-left: 12px; }
+}
+/* smallest phones (320px): keep the nav on one line and the coming-soon pill on one line */
+@media (max-width: 360px) {
+  .brand span { font-size: 20px; }
+  .top nav a { margin-left: 10px; }
+  .cta { padding: 0 20px; font-size: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
