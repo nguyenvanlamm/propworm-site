@@ -1,0 +1,125 @@
+# Propworm — full site text
+
+> The three pages of https://nguyenvanlamm.github.io/propworm-site/ as one Markdown file, for AI assistants and readers. Propworm is a toy-theatre puzzle game for iPhone, coming soon to the App Store (no App Store link yet). © 2026 Luong Nguyen.
+
+---
+
+## Home — https://nguyenvanlamm.github.io/propworm-site/
+
+A puzzle game for iPhone.
+
+### Unpin the scenery before the woodworm does.
+
+A paper toy theatre held together with wing nuts. Tap them free, sort them into tins, and watch the woodworm take one step through the set every time you do.
+
+Coming soon on the App Store. Want to know when it launches? Email lamnv260398@gmail.com.
+
+Free · 60 scenes · No ads · No tracking · Plays offline
+
+### Every tap moves the worm.
+
+Numbered tape marks show the woodworm's next three steps. If it lands on a free wing nut, it knocks it out, into its tin or onto your bench. If not, it bores a hole in the top flat, and a hole over a hidden nut uncovers it.
+
+So every tap is two moves: yours, and the worm's. Plan around it, or use it.
+
+### How it plays
+
+1. Tap a free wing nut and it flies to the open tin of its colour. Each tin holds three, two tins are open at a time, and you can see the next one.
+2. No matching tin? The nut waits on a five-place bench. Fill the bench and the scene ends.
+3. When its last nut comes out, a flat falls. Clear the stage and the curtain comes down.
+4. 60 scenes in three acts. The first scenes each teach one rule, and How to play is always one tap away.
+
+### Three tools in the wings
+
+- **Top Hat**: one more bench place. It also rescues a full bench.
+- **Spanner**: take any nut, even one that is covered.
+- **Intermission**: the woodworm rests for five taps.
+
+You start with two of each and earn more on every fifth scene and at the end of each act.
+
+### Fair play
+
+No ads. No tracking. No analytics. No account. It works offline, and your progress stays on your iPhone.
+
+Two optional purchases:
+
+- **Stagehand Kit**, $1.99: five of each tool. Buy it again any time.
+- **Spotlight**, $2.99 once: hidden nuts show their colour, and you see six woodworm marks ahead.
+
+Restore Purchases is in Settings.
+
+### Made by hand
+
+Crimson velvet, a warm stone wall, painted plywood flats. Twelve original sounds. VoiceOver reaches every free nut, and Reduce Motion is respected. Made by Luong Nguyen.
+
+### Questions
+
+**Is it free?**
+Yes. All 60 scenes are free to play. The Stagehand Kit and the Spotlight are optional.
+
+**Does it need the internet?**
+No. Propworm plays fully offline.
+
+**I reinstalled the game. How do I get the Spotlight back?**
+Open Settings and tap Restore Purchases, signed in with the same App Store account.
+
+**Which devices?**
+iPhone, from the App Store. It is not out yet; email me at lamnv260398@gmail.com and I will tell you when it is.
+
+**Does it collect data?**
+No. Nothing leaves your device except purchases, which go through the App Store. See the privacy policy.
+
+---
+
+## Support — https://nguyenvanlamm.github.io/propworm-site/support.html
+
+### Contact
+
+Write to lamnv260398@gmail.com. Please say which device you play on and, if it is about a scene, its number.
+
+### How to play
+
+Tap a free wing nut and it flies to the open tin of its colour; each tin holds three. With no matching tin open, the nut waits on the bench, and a full bench ends the scene. Every tap, the woodworm takes one step along its numbered marks: it knocks out a free nut it lands on, or bores a hole in the top flat. A flat falls when its last nut is out. The game also has a How to play page in Settings and in the Pause menu.
+
+### Purchases
+
+All 60 scenes are free. The Stagehand Kit adds five of each tool and can be bought again; the Spotlight is a one-time unlock. Bought something before, or on another device with the same store account? Open Settings → Restore Purchases.
+
+### Progress
+
+Progress is saved on the device only. It is not synced between devices, and it is removed if you delete the app.
+
+---
+
+## Privacy Policy — https://nguyenvanlamm.github.io/propworm-site/privacy.html
+
+Propworm · last updated 12 November 2026
+
+Propworm is a puzzle game. It does not ask who you are, and it does not sell any data about you.
+
+### What stays on your device
+
+- Your progress: the highest scene you have cleared and how many Top Hats, Spanners and Intermissions you have.
+- Your settings: whether sound is on.
+- Whether you have bought the Spotlight, and the store's transaction ids for purchases already delivered, so a purchase is never granted twice.
+
+This is stored on your device only. Deleting the app removes it.
+
+### What we do not do
+
+- No account or sign-in.
+- No advertising and no ad networks.
+- No analytics, crash reporting or tracking of any kind.
+- No access to your contacts, photos, location, camera or microphone.
+
+### Purchases
+
+All 60 scenes are free. The Stagehand Kit and the Spotlight are optional purchases, handled entirely by the App Store under its own privacy policy. We receive no payment details; the game only learns from the store which purchases exist.
+
+### Children
+
+The game collects no personal information from anyone, including children.
+
+### Changes
+
+If this policy changes, the new version will be posted on this page with a new date.
