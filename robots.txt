@@ -1,4 +1,33 @@
+# Propworm — https://nguyenvanlamm.github.io/propworm-site/
+# Note: crawlers read robots.txt only at the host root. On a GitHub Pages project site
+# this file is served at /propworm-site/robots.txt and is not read by crawlers, so the
+# same policy (and the Sitemap line) must also be in the root robots.txt of
+# nguyenvanlamm.github.io, or live here once the site moves to its own domain.
+
+# Everyone, including search engines, may crawl the whole site.
 User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+
+# AI search and on-demand fetchers: allowed, so the game can be found and cited.
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: DuckAssistBot
+User-agent: Amazonbot
+User-agent: MistralAI-User
+Allow: /
+
+# AI training crawlers: allowed too. This is a public marketing page for a game.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
 Allow: /
 
 Sitemap: https://nguyenvanlamm.github.io/propworm-site/sitemap.xml

@@ -1,0 +1,27 @@
+# Propworm
+
+> Propworm is a toy-theatre puzzle game for iPhone, coming soon to the App Store. Painted plywood flats are held on the stage by coloured wing nuts: tap a free nut to send it to the open tin of its colour, and with every tap a woodworm takes one step through the set, knocking out a free nut it lands on or boring a hole through the top flat. No ads, no tracking, no account; it plays offline.
+
+Key facts:
+
+- Platform: iPhone only (iOS 15.0 or later). Not released yet: there is no App Store link, rating or download count yet.
+- Content: 60 scenes in three acts of twenty. The first scenes each teach one rule, and How to play is in Settings and the Pause menu. No timers, no lives, no energy.
+- How it plays: tap a wing nut that nothing covers and it flies to the open tin of its colour. Two tins are open at a time, each holds three, and the next tin is shown. With no matching tin, the nut waits on a five-place bench; a full bench ends the scene. A flat falls when its last nut is out; clear every nut and the curtain comes down.
+- The woodworm: numbered tape marks show its next three steps. Each tap moves it one mark. If it lands on a free nut it knocks it out (into its tin or onto the bench); otherwise it bores a hole in the top flat, which can uncover a hidden nut.
+- Tools: Top Hat (one more bench place; also rescues a full bench), Spanner (take any nut, even a covered one), Intermission (the woodworm rests for five taps). You start with two of each and earn more on every fifth scene and at the end of each act.
+- Price: free to download; all 60 scenes are free to play. Two optional in-app purchases: Stagehand Kit, USD 1.99, consumable (5 Top Hats, 5 Spanners and 5 Intermissions; can be bought again); Spotlight, USD 2.99, one-time (hidden nuts show their colour and the woodworm's path shows six marks ahead). Restore Purchases is in Settings.
+- Privacy: no ads, no analytics, no tracking, no account or sign-in. Progress stays on the iPhone and is not synced.
+- Accessibility: VoiceOver names every free nut by its colour and symbol; each colour has its own stamped symbol; Reduce Motion is respected; sound can be turned off.
+- Language: English.
+- Made by: Luong Nguyen. © 2026 Luong Nguyen.
+- Contact and launch notice: lamnv260398@gmail.com
+
+## Pages
+
+- [Propworm home](https://nguyenvanlamm.github.io/propworm-site/): how the game plays, the woodworm, the tools, the two optional purchases and common questions
+- [Support](https://nguyenvanlamm.github.io/propworm-site/support.html): contact, how to play, purchases and restoring, how progress is saved
+- [Privacy Policy](https://nguyenvanlamm.github.io/propworm-site/privacy.html): what stays on the device and what the game never collects
+
+## Optional
+
+- [Full text of this site](https://nguyenvanlamm.github.io/propworm-site/llms-full.txt): all three pages as one Markdown file
